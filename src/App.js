@@ -83,7 +83,7 @@ function App() {
 
 
   async function req() {
-    return axios.get('https://datanal.herokuapp.com/bigdata.js/get', {
+    return axios.get('https://datanal.herokuapp.com/get', {
       params: {
         field: data,
         field2: data2,
