@@ -83,7 +83,7 @@ function App() {
 
 
   async function req() {
-    return axios.get('http://localhost:5000/get', {
+    return axios.get('https://puneetkathar1.github.io/bigdata.js/get', {
       params: {
         field: data,
         field2: data2,
@@ -97,7 +97,7 @@ function App() {
   }
 
   async function req2() {
-    return axios.get('http://localhost:5000/getfilter', {
+    return axios.get('https://puneetkathar1.github.io/bigdata.js/getfilter', {
       params: {
         field2: data2
       }
