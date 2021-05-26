@@ -1,0 +1,35 @@
+.App {
+  height: 100%;
+    background-color:#eeeeee;
+    font-family: sans-serif;
+    
+  }
+  
+  span {
+    margin: 20px;
+  }
+  
+  #pie-container {
+    display: inline-block;
+    align-items: center;
+    white-space: normal;
+    overflow-wrap: break-word;
+    margin-top: 10px;
+    padding-left: 22%;
+  }
+
+  .option {
+    padding-top: 50px;
+    padding-left: 35%;
+     width: 30%;
+     justify-content: center;
+     display: flex;
+     flex-direction: column;
+  }
+  
+  .filter{
+    padding-top: 10px; 
+     justify-content: center;
+    display: flex;
+    flex-direction: row;
+  }
